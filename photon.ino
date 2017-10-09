@@ -2,7 +2,7 @@
 	Quran Karriem <quran.karriem@duke.edu>
 	October 2017
 
-  Requires https://github.com/sparkfun/SparkFun_MMA8452Q_Particle_Library
+  Requires https://github.com/sparkfun/SparkFun_MMA8452Q_Particle_Library by Jim Lindblom
 
 	Use a particle Photon and the MMA8452Q accelerometer to send text messages, flash lights and make noise
   when a child wearing it falls down.
