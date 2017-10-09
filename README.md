@@ -4,9 +4,11 @@ Name: Quran Karriem
 
 Date: October 12, 2017
 
-## Project: "Brand Name" or Device Name
+## Project: TumbleText
 
 ### Conceptual Description
+
+In studying cloud-connected baby monitors (like those from iBaby Labs), I was struck by the combination of potentially useless data flows, ability to affect a child's physical space from the cloud, and generally poor security. The technology also seems to espouse tacit encouragement of absentee parenting. TumbleText is a large, restrictive worn device that sends text messages to parents (and any one subscribed) whenever a child falls down. The physical object/enclosure is large enough that it makes a toddler more likely to fall (so the parent knows the device is doing something). The device uses an accelerometer to detect a fall, and Particle.publish to send data about "speed" or severity of the fall. 
 
 /// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
 
