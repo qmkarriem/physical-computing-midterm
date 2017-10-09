@@ -1,8 +1,8 @@
 # Midterm IoT Project
 
-Name:  
+Name: Quran Karriem
 
-Date:
+Date: October 12, 2017
 
 ## Project: "Brand Name" or Device Name
 
@@ -24,13 +24,21 @@ Explain your design choices here and include images that document your project's
 ![Enclosure with electronics exposed](exposed_enclosure.jpg)
 
 ### Technical Details
+Hardware used:
+* MMA8452Q Accelerometer
+* 1 Red, 1 Yellow, 1 Green LED
+* Photon RedBoard
+* Mini Speaker - PC Mount 12mm 2.048kHz
+
+Code:
+[photon.ino](photon.ino)
+
+Wiring Diagram:
+![Wiring Diagram](https://github.com/qmkarriem/physical-computing-midterm/blob/master/WiringDiagram.png)
+
 //   
 Here you should give an overview of the technical operation of your device, including:
-* A wiring diagram
-* list of hardware used
-* Explanation of your
-* Link to code   
-
+* Explanation of your  
 //
 
 You can include code snippets here:
@@ -38,9 +46,3 @@ You can include code snippets here:
 ```
 Particle.subscribe("Execute", messageParse, MY_DEVICES);
 ```
-
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
-
-**Wiring Diagram**
-
-![Wiring Diagram](https://github.com/qmkarriem/physical-computing-midterm/blob/master/WiringDiagram.png)
