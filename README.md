@@ -43,4 +43,4 @@ but also link to your project's full code in this repository:  [photon.ino](phot
 
 **Wiring Diagram**
 
-![Wiring Diagram](WiringDiagram.png)
+![Wiring Diagram](https://github.com/qmkarriem/physical-computing-midterm/blob/master/WiringDiagram.png)
