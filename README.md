@@ -19,7 +19,7 @@ Explain your design choices here and include images that document your project's
 
 **Finished Enclosure:**
 
-![Finished Enclosure](finished_enclosure.jpg)
+![Finished Enclosure](finished_enclosure2.jpg)
 
 **Electronics Exposed:**
 
