@@ -44,8 +44,9 @@ if (x < hiThreshold && y < hiThreshold && z < hiThreshold){
   fallIndicator(hiPin, hiFreq, hiFallMessage);
 }
 ```
+This method detects falls, but not impacts, which might be detected when a single value has exceeded a threshold. I wanted to avoid damaging components (especially before I had an enclosure), so detecting falls seemed like a better idea than impacts.
 
-I had to account for negative values due to device rotation; I got a lot of false positives just by turning the device upside down (and burned through my allotment of free SMS messages on IFTTT in a day and had to switch to app notifications). I had some difficulties with the built-in abs() function in Arduino, and eventually just ended up using if statements instead, e.g.:
+To do fall detection, I had to account for negative values due to device rotation; I got a lot of false positives just by turning the device upside down (and burned through my allotment of free SMS messages on IFTTT in a day and had to switch to app notifications). I had some difficulties with the built-in abs() function in Arduino, and eventually just ended up using if statements instead, e.g.:
 ```
 if (x < 0){x = -x;} //ignore rotation data in determining fall status
 ```
