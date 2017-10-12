@@ -16,7 +16,7 @@ TumbleText also sends data to be displayed on the Rebecca's LCD screen. Once per
 
 ### Form
 
-TumbleText is a wearable. I modified a passport holder to contain the Photon, battery and breadboard. The prototype is small enough to be worn by an adult, but not enough to be reasonably worn by a toddler. I'd imagine that the long cord, worn aorund the neck, would actually make a child more likely to trip and fall (thereby triggering more data flows and proving the device works!). Similarly, the exposed LEDs would be immediately probed and and decontructed by a child. Here I'm expressing a productized eagerness to add bells and whistles (and collect data) without thought to use cases. In terms of the presentation of the prototype in class, I inserted a foam board at the back of the enclosure to prevent the Redboard from being damaged during drop testing.
+TumbleText is a wearable. I modified a passport holder to contain the Photon, battery and breadboard. The prototype is small enough to be worn by an adult, but not enough to be reasonably worn by a toddler. I'd imagine that the long cord, worn aorund the neck, would actually make a child more likely to trip and fall (thereby triggering more data flows and proving the device works!). Similarly, the exposed LEDs would be immediately probed and and deconstructed by a child. Here I'm expressing a productized eagerness to add bells and whistles (and collect data) without thought to use cases. In terms of the presentation of the prototype in class, I inserted a foam board at the back of the enclosure to prevent the Redboard from being damaged during drop testing.
 
 **Finished Enclosure:**
 
